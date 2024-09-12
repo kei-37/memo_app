@@ -18,7 +18,7 @@
     </ul>
 
     <!-- 新規登録画面へジャンプする -->
-    <button onclick='location.href={{ route('memos.create') }}"'">登録する</button>
+    <button onclick='location.href="{{ route('memos.create') }}"'>登録する</button>
 </body>
 
 </html>
